@@ -14,8 +14,8 @@ mail-smtp                 : YOUR.SMTPSERVER.COM
 // mail-smtp-options         : {"user":"","password":"","timeout":2000}
 
 // Gmail SMTP settings
-// mail-smtp                : smtp.gmail.com
-// mail-smtp-options        : {"port":465,"secure":true,"user":"ENTER_YOUR_EMAIL","password":"ENTER_YOUR_PASSWORD","rejectUnauthorized":true}
+mail-smtp                : smtp.gmail.com
+mail-smtp-options        : {"port":465,"secure":true,"user":"uenmediablog@gmail.com","password":"Xero14.-","rejectUnauthorized":true}
 
 // Office365 SMTP settings
 // mail-smtp                : smtp.office365.com
