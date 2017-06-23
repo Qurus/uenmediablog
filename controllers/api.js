@@ -64,4 +64,5 @@ function json_comments_save() {
 function json_save() {
 	var self = this;
 	self.body.$save(self.callback());
+	self.$async(self.callback(), 1).$workflow('recaptcha').$save().$workflow('notify');
 }

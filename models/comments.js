@@ -11,6 +11,7 @@ NEWSCHEMA('Comment').make(function(schema) {
 	schema.define('admin', Boolean);
 	schema.define('approved', Boolean);
 	schema.define('approved_old', Boolean);
+	
 
 	schema.setQuery(function(error, controller, callback) {
 

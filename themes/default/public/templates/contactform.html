@@ -30,7 +30,8 @@
 			</div>
 		</div>
 		<br />
-
+		<div data-jc="recaptcha" data-jc-path="recaptcha" data-key="6LdfcSYUAAAAACWHKdhN5M47eFKALqe2J0iQdUnl"></div>
+		<br>
 		<div data-jc="error" data-jc-path="response"></div>
 
 		<div class="row">
@@ -47,4 +48,33 @@
 		var component = el.closest('[data-jc]').component();
 		AJAX('POST /api/contact/', component.get(), component.pathscope + '.response');
 	});
+</script>
+<script>
+
+COMPONENT('recaptcha', function() {
+
+    var self = this;
+    var isRequired = self.attr('data-required') === 'true';
+
+    self.getter = null;
+
+    self.validate = function(value) {
+        return !isRequired || (value && value.length > 300);
+    };
+
+    !isRequired && self.noValid();
+
+    self.make = function() {
+        WAIT(function() {
+            return window.grecaptcha ? true : false;
+        }, function(err, again) {
+            if (err)
+                return again(100);
+            grecaptcha.render(self.element.get(0), { sitekey: self.attr('data-key'), theme: self.attr('data-theme') || 'light', callback: function(response) {
+                self.set(response);
+                self.change(true);
+            }});
+        });
+    };
+});
 </script>
