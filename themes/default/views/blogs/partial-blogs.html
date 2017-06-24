@@ -4,7 +4,7 @@
 		<div class="listing">
 			<a href="@{sitemap_url('detail', m.category_linker, m.linker)}" class="picture"><img src="/download/@{m.picture}" class="img-responsive img-rounded" /></a>
 			<a href="@{sitemap_url('detail', m.category_linker, m.linker)}" class="title">@{m.name}</a>
-			<a href="@{sitemap_url('category', m.category_linker)}" class="category">@(Category:) <b>@{m.category}</b></a>
+			<a href="@{sitemap_url('category', m.category_linker)}" class="category">@(Kategori:) <b>@{m.category}</b></a>
 			<div class="date"><i class="fa fa-clock-o"></i><span class="time">@{m.datecreated}</span>@{if m.countcomments}<b class="red"><i class="fa fa-comments"></i>@{m.countcomments}@{fi}</b></div>
 			<p>@{m.perex}</p>
 		</div>
@@ -19,8 +19,8 @@
 			<br />
 			<br />
 			<div>
-				@(Currently we don't have any items sufficient for search criteria.)<br />
-				<b>@(Try to visit our page later)</b>.
+				@(Aradığınız kelimede malasef sonuç bulunamadı.)<br />
+				<b>@(Daha sonra tekrar deneyiniz)</b>.
 			</div>
 		</div>
 	</div>

@@ -1,9 +1,10 @@
 [![MIT License][license-image]][license-url]
 
-[![Support](http://www.uenmedia.de/img/logo.png)](http://www.uenmedia.com)
+[![Support](https://www.totaljs.com/img/button-support.png?v=2)](https://www.totaljs.com/support/)
 
 - __License__: [MIT](license.txt)
-- [__HelpDesk with professional support__](http://uenmedia.com)
+- [__Live chat with professional support__](https://messenger.totaljs.com)
+- [__HelpDesk with professional support__](https://helpdesk.totaljs.com)
 
 # Installation
 
@@ -19,11 +20,11 @@
 
 ## Markdown
 
-Read more about supported [Markdown syntax](https://github.com/Qurus/uenmediablog/blob/master/markdown.txt).
+Read more about supported [Markdown syntax](https://github.com/totaljs/blogengine/blob/master/markdown.txt).
 
 ## Contributors
 
-- Ali Uen
+- Peter Širka <petersirka@gmail.com>
 
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: license.txt

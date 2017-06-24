@@ -15,14 +15,11 @@
 
 @{if model.others.count}
 	<div class="others hidden-xs">
-		<h2><i class="fa fa-book"></i>@(More @{model.category})</h2>
+		<h2><i class="fa fa-book"></i>@(Benzer konular @{model.category})</h2>
 		<div>
 		@{foreach m in model.others.items}
 			<a href="@{sitemap_url('detail', m.category_linker, m.linker)}"><i class="fa fa-caret-right"></i>@{m.name}<span class="time">@{m.datecreated}</span></a>
 		@{end}
-		</div>
-		<a href="http://blog.uenmedia.com" class="membership" target="_blank">@(Join us <b>for free</b>)</a>
-	</div>
 @{fi}
 
 @{if model.comments}
