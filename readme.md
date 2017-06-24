@@ -3,8 +3,7 @@
 [![Support](https://www.totaljs.com/img/button-support.png?v=2)](https://www.totaljs.com/support/)
 
 - __License__: [MIT](license.txt)
-- [__Live chat with professional support__](https://messenger.totaljs.com)
-- [__HelpDesk with professional support__](https://helpdesk.totaljs.com)
+- [__HelpDesk with professional support__](http://uenmedia.com)
 
 # Installation
 
@@ -24,7 +23,7 @@ Read more about supported [Markdown syntax](https://github.com/totaljs/blogengin
 
 ## Contributors
 
-- Peter Širka <petersirka@gmail.com>
+- Ali Uen
 
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: license.txt
