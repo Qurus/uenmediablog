@@ -3,7 +3,7 @@
 [![Support](http://uenmedia.de/img/logo.svg)](http://uenmedia.com)
 
 - __License__: [MIT](license.txt)
-- [__HelpDesk with professional support__](https://helpdesk.uenmedia.com)
+- [__HelpDesk with professional support__](http://helpdesk.uenmedia.com)
 
 # Installation
 
@@ -19,7 +19,7 @@
 
 ## Markdown
 
-Read more about supported [Markdown syntax](https://github.com/totaljs/blogengine/blob/master/markdown.txt).
+Read more about supported [Markdown syntax](https://github.com/Qurus/uenmediablog/blob/master/markdown.txt).
 
 ## Contributors
 
