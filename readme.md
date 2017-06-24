@@ -1,6 +1,6 @@
 [![MIT License][license-image]][license-url]
 
-[![Support](https://www.uenmedia.com/img/logo.png)](http://www.uenmedia.com)
+[![Support](http://www.uenmedia.de/img/logo.png)](http://www.uenmedia.com)
 
 - __License__: [MIT](license.txt)
 - [__HelpDesk with professional support__](http://uenmedia.com)
