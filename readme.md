@@ -19,7 +19,7 @@
 
 ## Markdown
 
-Read more about supported [Markdown syntax](https://github.com/totaljs/blogengine/blob/master/markdown.txt).
+Read more about supported [Markdown syntax](https://github.com/Qurus/uenmediablog/blob/master/markdown.txt).
 
 ## Contributors
 
